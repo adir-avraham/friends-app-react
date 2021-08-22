@@ -1,0 +1,32 @@
+.image {
+  height: 240px;
+ 
+}
+
+.card-img-overlay {
+  opacity: 0;
+  transition: 1s;
+}
+
+.card-img-overlay:hover {
+  cursor: pointer;
+  transition: 1s;
+  opacity: 1;
+}
+
+img {
+  transition: 1s;
+}
+
+.card:hover > img {
+  filter: brightness(50%);
+  transition: 1s;
+}
+
+.card {
+  max-width: 320px;
+}
+
+.tran {
+  transition: 1s;
+}
